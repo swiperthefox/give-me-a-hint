@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-login = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-socketio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[packages.gunicorn]
+git = "https://github.com/benoitc/gunicorn.git"
+ref = "792edf6"

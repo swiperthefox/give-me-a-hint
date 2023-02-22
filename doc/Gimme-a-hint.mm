@@ -1,0 +1,173 @@
+<map version="freeplane 1.9.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="Gimme-a-hint" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1662693380851" STYLE="oval" FORMAT="markdownPatternFormat">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" .addon.mm="file"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork" FORMAT="markdownPatternFormat">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
+<icon BUILTIN="yes"/>
+<arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Summy" POSITION="right" ID="ID_456988171" CREATED="1662563810112" MODIFIED="1662565105096" HGAP_QUANTITY="-175 pt" VSHIFT_QUANTITY="-9.81818 pt">
+<edge COLOR="#0000ff"/>
+<node TEXT="Give students real time helps with their math questions" ID="ID_1965918890" CREATED="1662563828316" MODIFIED="1662563867615"/>
+</node>
+<node TEXT="Features" FOLDED="true" POSITION="left" ID="ID_1562340361" CREATED="1662563873156" MODIFIED="1662565118634" HGAP_QUANTITY="-14.63636 pt" VSHIFT_QUANTITY="-103.09091 pt">
+<edge COLOR="#ff00ff"/>
+<node TEXT="User managment" ID="ID_1633715837" CREATED="1662563879132" MODIFIED="1662563903630"/>
+<node TEXT="User role: student and teacher" ID="ID_1643928360" CREATED="1662563906236" MODIFIED="1662563920254"/>
+<node TEXT="Student can have notebooks" ID="ID_1807984594" CREATED="1662563923032" MODIFIED="1662563941939"/>
+<node TEXT="notebook consists of cells" ID="ID_1081278253" CREATED="1662563942724" MODIFIED="1662563964563"/>
+<node TEXT="Cell" ID="ID_1955921650" CREATED="1662564212815" MODIFIED="1662564219580">
+<node TEXT="A cell is a piece of content in varies kind of forms" FOLDED="true" ID="ID_734798193" CREATED="1662563965912" MODIFIED="1662564017627">
+<node TEXT="Image" ID="ID_368774280" CREATED="1662564019012" MODIFIED="1662564022218"/>
+<node TEXT="Math" ID="ID_1176403629" CREATED="1662564023861" MODIFIED="1662564037391">
+<node TEXT="Latex" ID="ID_1171358596" CREATED="1662564038817" MODIFIED="1662564041478"/>
+<node TEXT="Asciimath" ID="ID_742712646" CREATED="1662564041969" MODIFIED="1662564047151"/>
+</node>
+<node TEXT="Markdown" ID="ID_108053376" CREATED="1662564050873" MODIFIED="1662564056863"/>
+</node>
+<node TEXT="A cell can have different kind of roles" ID="ID_1859800465" CREATED="1662564223782" MODIFIED="1662564241311">
+<node TEXT="Note" ID="ID_582702394" CREATED="1662564251562" MODIFIED="1662564254203"/>
+<node TEXT="Question" ID="ID_834206779" CREATED="1662564257178" MODIFIED="1662564263643"/>
+<node TEXT="Answer" ID="ID_431247055" CREATED="1662564264646" MODIFIED="1662564272843"/>
+</node>
+</node>
+<node TEXT="Notebook have a table of content based on the first line of cells" ID="ID_384570742" CREATED="1662564069909" MODIFIED="1662564496617"/>
+<node TEXT="student take notes by adding cells" ID="ID_1859534866" CREATED="1662564159749" MODIFIED="1662564194148"/>
+<node TEXT="student can ask question by adding cells" ID="ID_1931268873" CREATED="1662564301994" MODIFIED="1662564318231"/>
+<node TEXT="Teacher can list the questions" ID="ID_412643853" CREATED="1662564321177" MODIFIED="1662564354897"/>
+<node TEXT="Teacher will be notified in real time if they are online when the question is posted" ID="ID_1955275813" CREATED="1662564357018" MODIFIED="1662564384952"/>
+<node TEXT="Teacher can post answers by adding cells" ID="ID_810827203" CREATED="1662564393846" MODIFIED="1662564422588"/>
+<node TEXT="the book should be searchable" ID="ID_808272116" CREATED="1662564424307" MODIFIED="1662564450544"/>
+</node>
+<node TEXT="Pages" POSITION="right" ID="ID_1141468943" CREATED="1662564521224" MODIFIED="1662565152862" HGAP_QUANTITY="-40 pt" VSHIFT_QUANTITY="-31.90909 pt">
+<edge COLOR="#00ffff"/>
+<node TEXT="Students" ID="ID_508992442" CREATED="1662564588168" MODIFIED="1662564592550">
+<node TEXT="Register" ID="ID_421342981" CREATED="1662564534519" MODIFIED="1662564542021"/>
+<node TEXT="Login" ID="ID_1704267054" CREATED="1662564542592" MODIFIED="1662564546097"/>
+<node TEXT="List of books" ID="ID_1524322660" CREATED="1662564546616" MODIFIED="1662564575778"/>
+<node TEXT="Bookview" ID="ID_114026708" CREATED="1662564606193" MODIFIED="1662564617578"/>
+<node TEXT="Cell editor" ID="ID_1361044548" CREATED="1662564618621" MODIFIED="1662564629098"/>
+</node>
+<node TEXT="Teachers" ID="ID_1545918975" CREATED="1662564701486" MODIFIED="1662564708184">
+<node TEXT="Register" ID="ID_1008969568" CREATED="1662564712098" MODIFIED="1662564714704"/>
+<node TEXT="Login" ID="ID_569021624" CREATED="1662564715394" MODIFIED="1662564717927"/>
+<node TEXT="List of Students" ID="ID_717662956" CREATED="1662564718634" MODIFIED="1662564724952"/>
+<node TEXT="List of books of A student" ID="ID_925887487" CREATED="1662564725450" MODIFIED="1662564737187"/>
+<node TEXT="Bookview" ID="ID_142638716" CREATED="1662564737666" MODIFIED="1662564746252"/>
+<node TEXT="List of questions" ID="ID_275431431" CREATED="1662564746735" MODIFIED="1662564752206"/>
+<node TEXT="Cell Editor" ID="ID_220274233" CREATED="1662564752575" MODIFIED="1662564777297"/>
+</node>
+</node>
+<node TEXT="API" POSITION="left" ID="ID_1215931234" CREATED="1662564832824" MODIFIED="1662565113386" HGAP_QUANTITY="63.90909 pt" VSHIFT_QUANTITY="-26.18182 pt">
+<edge COLOR="#7c0000"/>
+<node TEXT="Users" ID="ID_1032439646" CREATED="1662564843108" MODIFIED="1662564858569"/>
+<node TEXT="Login" ID="ID_636766108" CREATED="1662564868264" MODIFIED="1662564871981"/>
+<node TEXT="Books" ID="ID_24538200" CREATED="1662564873104" MODIFIED="1662564877774"/>
+<node TEXT="Questions" ID="ID_857104107" CREATED="1662564880824" MODIFIED="1662564887037"/>
+<node TEXT="Answer" ID="ID_152539176" CREATED="1662564888520" MODIFIED="1662565005046"/>
+</node>
+<node TEXT="Stories" POSITION="right" ID="ID_205273252" CREATED="1662565136347" MODIFIED="1662692735834" HGAP_QUANTITY="59.81818 pt" VSHIFT_QUANTITY="-31.90909 pt">
+<edge COLOR="#007c00"/>
+<node TEXT="User management" ID="ID_1526617996" CREATED="1662565162959" MODIFIED="1662565175917">
+<node TEXT="Register" ID="ID_7603585" CREATED="1662565568242" MODIFIED="1662565579436"/>
+<node TEXT="List" ID="ID_1830765198" CREATED="1662565730436" MODIFIED="1662565732349"/>
+<node TEXT="Log in/out" ID="ID_677757767" CREATED="1662565580223" MODIFIED="1662565594236"/>
+<node TEXT="Delete" ID="ID_552023597" CREATED="1662565596238" MODIFIED="1662565600836"/>
+</node>
+<node TEXT="Book management" ID="ID_1410385720" CREATED="1662565187219" MODIFIED="1662565201921">
+<node TEXT="Create" ID="ID_851329695" CREATED="1662565670824" MODIFIED="1662565675241"/>
+<node TEXT="List" ID="ID_1443734613" CREATED="1662565723088" MODIFIED="1662565725181"/>
+<node TEXT="Delete" ID="ID_669399514" CREATED="1662565676347" MODIFIED="1662565685017"/>
+<node TEXT="Download" ID="ID_23587134" CREATED="1662565688012" MODIFIED="1662565690601"/>
+</node>
+<node TEXT="Book Editing" ID="ID_59219281" CREATED="1662565203836" MODIFIED="1662565216984"/>
+<node TEXT="Real time broadcast" ID="ID_1850284924" CREATED="1662565217780" MODIFIED="1662565236119"/>
+</node>
+<node TEXT="Architecture" POSITION="left" ID="ID_50956705" CREATED="1662565257088" MODIFIED="1662565270314">
+<edge COLOR="#007c7c"/>
+<node TEXT="Frontend" ID="ID_108669985" CREATED="1662565302304" MODIFIED="1662565307121">
+<node TEXT="Web and Mobile" ID="ID_430250862" CREATED="1662565311368" MODIFIED="1662565328009"/>
+<node TEXT="Quasar app" ID="ID_570102220" CREATED="1662565329133" MODIFIED="1662565338601"/>
+<node TEXT="Keep ws connection after login" ID="ID_180177420" CREATED="1662565343469" MODIFIED="1662565380934"/>
+<node TEXT="Book manipulations are sent to server vis WS" ID="ID_1591974555" CREATED="1662565383857" MODIFIED="1662565438463"/>
+</node>
+<node TEXT="Backend" ID="ID_619658523" CREATED="1662565278028" MODIFIED="1662565295717">
+<node TEXT="Serve the index page" ID="ID_931976494" CREATED="1662565470814" MODIFIED="1662565478335"/>
+<node TEXT="Flask + sqlalchemy" ID="ID_884949000" CREATED="1662565482030" MODIFIED="1662565542468"/>
+</node>
+</node>
+<node TEXT="SQL Schema" FOLDED="true" POSITION="right" ID="ID_879743385" CREATED="1662692713001" MODIFIED="1662693380848" HGAP_QUANTITY="113 pt" VSHIFT_QUANTITY="-54.81818 pt">
+<edge COLOR="#ff0000"/>
+<node TEXT="User { id, name, email, password, role: number}" ID="ID_660668864" CREATED="1662692739729" MODIFIED="1662692782759"/>
+<node TEXT="Book {id, owner, name, description, cover}" ID="ID_1668464312" CREATED="1662692783346" MODIFIED="1662692826115"/>
+<node TEXT="Cell {id, bid, previous, type, img, original, html_text}" ID="ID_1495507309" CREATED="1662692826438" MODIFIED="1662693240651"/>
+<node TEXT="Annotations {id, cid, top, left, width, height, originial, html_text}" ID="ID_1731111343" CREATED="1662693278205" MODIFIED="1662693327448"/>
+</node>
+<node TEXT="API" POSITION="right" ID="ID_1280506908" CREATED="1662693369488" MODIFIED="1662693386613" HGAP_QUANTITY="104.81818 pt" VSHIFT_QUANTITY="-164.45455 pt">
+<edge COLOR="#0000ff"/>
+</node>
+</node>
+</map>
